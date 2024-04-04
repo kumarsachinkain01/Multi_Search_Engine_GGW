@@ -10,6 +10,7 @@
     background-image: url(./black-theme-cs17-gemini.jpg);
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
+    z-index: -1;
   }
   
   .container {
@@ -97,10 +98,21 @@
     text-align: center;
 }
 .search_button a:hover{
-    background-color: rgb(29, 216, 60);
+    background-color: rgb(29, 216, 60);  
 }
 
-  
+/*
+ .container1{
+    width: 700px;
+    margin-left: -15%;
+ } */
+
+
+.output-container{
+    color: white;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
   
   @keyframes fadeIn {
     from {
